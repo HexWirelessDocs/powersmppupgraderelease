@@ -1,0 +1,46 @@
+site_name: PowerSMPP Platform Upgrade Release
+site_url: https://release.powersmpp.com        
+
+theme:
+  name: material
+  features:
+#    - navigation.expand
+#    - navigation.tabs
+#    - navigation.tabs.sticky
+#    - navigation.sections
+#    - navigation.path
+    - search.highlight 
+    - search.suggest  
+    - navigation.tracking
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.top
+    - toc.integrate
+    - content.code.copy
+    - content.action.edit
+  font:
+    text: Roboto
+    code: Red Hat Mono
+  logo: assets/powersmpp.png
+  favicon: assets/powersmppfavicon.png
+  language: en 
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: white
+      accent: deep orange  
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: cyan
+      accent: cyan
+    # Light Mode
+
+
+INHERIT: ./nav.yml    
